@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.main {
+
+    margin-top: 20px;
+    background-image: url(../../../public/jpg/halloween-scene-illustration-anime-style.jpg);
+    background-size: cover;
+    width: 100%;
+    max-height: 100vh;
+    height: 120vh ;
+    
+    
+}
+
+*{
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    
+}
+
+.main__title {
+    text-align: center;
+    padding-top: 300px;
+}
+.main__sub {
+    font-size: 27px;
+    line-height: 1.5;
+    text-align: center;
+    
+    
+}
+
+.par p {
+    text-align: center;
+}

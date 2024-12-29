@@ -1,0 +1,113 @@
+p {
+    color: #fff;
+}
+
+.galary {
+    width: auto;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px; /* Отступы между карточками */
+    padding: 20px;
+    background-color: #121212; /* Фон галереи */
+    margin-left: 5%;
+}
+
+.container {
+    width: 220px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Небольшое поднятие карточки при наведении */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+.animesh {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.item {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.animesh img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 180px;
+    height: 255px;
+    object-fit: cover; /* Масштабирование изображения без искажений */
+}
+
+.animesh:hover {
+    opacity: 0.6;
+}
+
+.tv {
+    position: absolute;
+    text-align: center;
+    background-color: blue;
+    margin-top: -1px;
+    margin-left: 153px;
+    border-radius: 0px 10px;
+    width: 27px;
+    height: 25px;
+}
+
+.sub {
+    position: absolute;
+    margin-top: -29px;
+    margin-left: 145px;
+    border-radius: 10px 0;
+    width: 36px;
+    height: 25px;
+    color: #000;
+    background-color: #FFA000;
+}
+
+.container {
+    width: 220px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.block {
+    padding: 10px; /* Отступы внутри блока */
+    background-color: #292929; /* Цвет фона блока */
+    border-radius: 8px; /* Немного скругляем блок */
+}
+
+.block:hover {
+    background-color: #3a3a3a; /* Лёгкое изменение цвета при наведении */
+}
+
+.animesh {
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.item {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}

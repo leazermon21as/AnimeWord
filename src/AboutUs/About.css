@@ -1,0 +1,123 @@
+/* Общий стиль */
+body {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+/* Блок обертки */
+.abouts {
+    background-image: url(../../public/jpg/japan-background-digital-art.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* Основной контейнер */
+.blocks {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(29, 27, 27, 0.9); /* Прозрачный фон */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.new__block {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Текстовые блоки */
+.about__title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ff6f61;
+}
+
+.about__subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+}
+
+.about__text {
+    font-size: 16px;
+    text-align: justify;
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+/* Изображения */
+.sub__img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sub__img:hover {
+    transform: scale(1.05);
+}
+
+/* Заголовки внутри текста */
+.sub__text h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 28px;
+    color: #ff9f43;
+}
+
+/* Абзацы текста */
+.sub__text p {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+/* Анимация */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .blocks {
+        width: 90%;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+
+    .about__subtitle {
+        font-size: 16px;
+    }
+
+    .sub__text p {
+        font-size: 14px;
+    }
+}

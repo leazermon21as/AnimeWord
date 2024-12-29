@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Dandadan (2024)",
+    "image": "public/anime-card/dandadan.svg"
+  },
+
+  {
+    "id": 2,
+    "name": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V (2024)",
+    "image": "public/anime-card/dungeon.svg"
+  },
+
+  {
+    "id": 3,
+    "name": "Blue Lock 2nd Season (2024)",
+    "image": "public/anime-card/blueLok.svg"
+  },
+
+  {
+    "id": 4,
+    "name": "The Healer Who Was Banished From His Party, Is,",
+    "image": "public/anime-card/Party.svg"
+  },
+
+  {
+    "id": 5,
+    "name": "Solo Leveling Season 2: Arise from the Shadow",
+    "image": "public/anime-card/Solo.svg"
+  }
+]
+
